@@ -19,10 +19,7 @@ Arch Wiki : https://wiki.archlinux.org/title/installation_guide
 ## Installation Instructions
 
 > If you are using vmware you have to first add this line to the virtual machine `.vmx` file
->
-> ```
 > firmware = "efi"
-> ```
 
 First make sure the internet connection is working by `ping google.com` then proceed to
 
@@ -170,3 +167,22 @@ git config --global credential.helper store
 replacing `EMAIL` with your github email address and `NAME` with your name or username.
 
 the first github operation you do will require your email and password, paste your access token in place of the password, git will then store your credentials and will automatically pass them the next time you run a github command.
+
+## Web Dev
+
+**Front-end**
+- React
+- Remix
+- TailwindCSS
+- styled-components (for scoped CSS)
+
+**Back-end**
+- Node
+- Express
+
+**Dev-tools**
+- Nodemon
+- Concurrently (for multitasking in npm commands)
+
+**Assets**
+- Heroicons
